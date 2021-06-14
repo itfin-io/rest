@@ -1,6 +1,6 @@
 {
   "name": "@itfin/rest",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "ITFin REST API client for Browser and Node.js",
   "keywords": [
     "itfin",
@@ -12,7 +12,8 @@
   "files": [
     "dist/",
     "src/",
-    "examples/"
+    "examples/",
+    "!examples/*/node_modules/"
   ],
   "main": "dist/index.js",
   "scripts": {

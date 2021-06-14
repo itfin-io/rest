@@ -53,7 +53,7 @@ class Application {
     }, (error) => {
       if (isDebug && error.config) {
         const url = axios.getUri(error.config);
-        logger.error(`❌ [${error.response.status}] ${error.config.method.toUpperCase()} ${url}`);
+        logger.error(`❌ [${error.response ? error.response.status : '---'}] ${error.config.method.toUpperCase()} ${url}`);
       }
       if (error.response) {
         return Promise.reject(new ApiResponseError(error));
