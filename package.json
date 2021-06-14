@@ -1,13 +1,14 @@
 {
-  "name": "lambda",
+  "name": "itfin-rest",
   "version": "1.0.0",
-  "description": "",
+  "description": "ITFin REST API client for Browser and Node.js",
+  "keywords": ["itfin", "itfin-api", "api-client", "api", "rest"],
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production babel src -d dist -s",
     "test": "node -e \"require('./dist/index').handler({});\""
   },
-  "author": "",
+  "author": "Vitalii Savchuk <esvit666@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",

@@ -2,9 +2,7 @@ import { Application, MINUTES_IN_HOUR } from 'itfin-sdk';
 import Tracking from 'itfin-sdk/tracking';
 
 exports.handler = async () => {
-  const app = new Application(process.env.ITFIN_SECRET_KEY, process.env.ITFIN_SECRET_TOKEN, {
-    baseUrl: 'https://app.itfin.io'
-  });
+  const app = new Application(process.env.ITFIN_SECRET_KEY, process.env.ITFIN_SECRET_TOKEN);
 
   const tracking = new Tracking(app);
 
