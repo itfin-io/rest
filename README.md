@@ -10,11 +10,11 @@
 Node
 </th><td>
 
-Install with `npm install itfin-sdk --save`
+Install with `npm install @itfin/rest --save`
 
 ```js
-const { Application } = require("itfin-sdk");
-// or: import { Application } from 'itfin-sdk';
+const { Application } = require("@itfin/rest");
+// or: import { Application } from '@itfin/rest';
 ```
 
 </td></tr>
@@ -39,7 +39,7 @@ const clientOptions = {
   debug: false
 }
 
-const bitbucket = new Application(secretKey, secretToken, clientOptions)
+const app = new Application(secretKey, secretToken, clientOptions)
 ```
 
 ## LICENSE
