@@ -30,6 +30,7 @@ More examples of usage you can find in `examples` folder.
 You can set the APIs' `baseUrl` and modify some behaviors (e.g. request timeout etc.) by passing a clientOptions object to the `Application` constructor.
 
 ```js
+// secret key & token you can get on page Settings > API Keys
 const secretKey = '...';
 const secretToken = '...';
 const clientOptions = {

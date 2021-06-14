@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+  "scripts": {g
     "build": "cross-env NODE_ENV=production babel src -d dist -s",
     "start": "babel-node -e \"require('./index').handler({});\""
   },
